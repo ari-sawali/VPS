@@ -1,0 +1,7 @@
+language: python
+python:
+  - "2.7"
+install:
+    - sudo pip install rsa
+    - sudo pip install thirft==0.9.3
+    - sudo pip install request
